@@ -5,7 +5,7 @@
 - **Authors:** Yuwei Bao, Keunwoo Peter Yu, Yichi Zhang, Shane Storks, Itamar Bar-Yossef, Alexander De La Iglesia, Megan Su, Xiao Lin Zheng, Joyce Chai
 - **Organization:** University of Michigan, Computer Science and Engineering
 - **Published in:** EMNLP 2023, Singapore
-- **Links:** [Arxiv](https://arxiv.org/abs/2311.00738), [Github](https://github.com/sled-group/Watch-Talk-and-Guide), [Dataset]()
+- **Links:** [Arxiv](https://arxiv.org/abs/2311.00738), [Github](https://github.com/sled-group/Watch-Talk-and-Guide), [Dataset](https://forms.gle/CMgWadMtbaA7tNnE6)
 
 
 ## Abstract
@@ -20,13 +20,13 @@ Despite tremendous advances in AI, it remains a significant challenge to develop
 - Install [EgoHOS](https://github.com/owenzlz/EgoHOS)
 - Install [CLIP](https://github.com/openai/CLIP)
 - Insert your openai credentials to [open.py](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/src/open.py)
-- Download dataset WTaG
+- Download dataset [WTaG](https://forms.gle/CMgWadMtbaA7tNnE6)
 
 
 ### Running
 To evaluate the three methods on WTaG:
 ```
-pipeline.py [-h] --MTYPE MTYPE --in_path IN_PATH --video_list VIDEO_LIST --out_path
+python src/pipeline.py [-h] --MTYPE MTYPE --in_path IN_PATH --video_list VIDEO_LIST --out_path
                    OUT_PATH
 
 optional arguments:
