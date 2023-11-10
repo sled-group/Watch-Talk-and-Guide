@@ -10,7 +10,20 @@
 
 
 ## WTaG: Watch, Talk and Guide Dataset
-![alt text](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/assets/demo.gif)
+<img src="/assets/demo.gif" width="100%"/>
+
+WTaG is human-human task guidance dataset with natural language communications, mistake and corrections, and synchronized egocentric videos with transcriptions. WTaG is richly annotated with step detection, user and instructor dialog intention, and mistakes. 
+
+
+### Dataset Stats
+
+- #Videos Length:  10 hours
+- #Videos:         56
+- #Recipes:        3
+- #User:           17
+- #Instructor:     3
+- #Total Utterances: 4233
+- Median Video Length: 10 mins
 
 
 ## Abstract
@@ -19,6 +32,7 @@ Despite tremendous advances in AI, it remains a significant challenge to develop
 
 
 ![alt text](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/assets/example.png)
+
 
 
 ### SetUp
