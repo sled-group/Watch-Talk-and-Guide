@@ -37,6 +37,10 @@ WTaG is human-human task guidance dataset with natural language communications, 
 ![alt text](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/assets/anno_intent.png)
 
 
+### Dataset Access
+
+Submit a request [here](https://forms.gle/CMgWadMtbaA7tNnE6). Should take up to 48 hours.
+
 ## Abstract
 Despite tremendous advances in AI, it remains a significant challenge to develop interactive task guidance systems that can offer situated, personalized guidance and assist humans in various tasks. These systems need to have a sophisticated understanding of the user as well as the environment, and make timely accurate decisions on when and what to say. To address this issue, we created a new multimodal benchmark dataset, Watch, Talk and Guide (WTaG) based on natural interaction between a human user and a human instructor. We further proposed two tasks: User and Environment Understanding, and Instructor Decision Making. We leveraged several foundation models to study to what extent these models can be quickly adapted to perceptually enabled task guidance. Our quantitative, qualitative, and human evaluation results show that these models can demonstrate fair performances in some cases with no task-specific training, but a fast and reliable adaptation remains a significant challenge. Our benchmark and baselines will provide a stepping stone for future work on situated task guidance.
 
@@ -58,7 +62,7 @@ Despite tremendous advances in AI, it remains a significant challenge to develop
 #### Instructor Decition Making
 
 1. When to Talk: Should the instructor talk at time t (yes/no).
-2. Instructor Intent: If yes to 1, instructor’s dia- log intention (options).
+2. Instructor Intent: If yes to 1, instructor’s dialog intention (options).
 3. Instruction Type: If yes to 1 and intent in 2 is “Instruction”, what type (options).
 4. Guidance generation: If yes to 1, what to say in natural language.
 
