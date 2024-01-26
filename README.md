@@ -5,7 +5,7 @@
 - **Authors:** Yuwei Bao, Keunwoo Peter Yu, Yichi Zhang, Shane Storks, Itamar Bar-Yossef, Alexander De La Iglesia, Megan Su, Xiao Lin Zheng, Joyce Chai
 - **Organization:** University of Michigan, Computer Science and Engineering
 - **Published in:** EMNLP 2023, Singapore
-- **Links:** [Arxiv](https://arxiv.org/abs/2311.00738), [Github](https://github.com/sled-group/Watch-Talk-and-Guide), [Dataset](https://forms.gle/CMgWadMtbaA7tNnE6)
+- **Links:** [Arxiv](https://arxiv.org/abs/2311.00738), [Github](https://github.com/sled-group/Watch-Talk-and-Guide), [Dataset](https://www.dropbox.com/scl/fo/rri8hdi1b6xlxude1zv28/h?rlkey=5169s5ovnnt0j4cdalpzn4b2b&dl=0)
 
 
 
@@ -37,9 +37,9 @@ WTaG is human-human task guidance dataset with natural language communications, 
 ![alt text](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/assets/anno_intent.png)
 
 
-### Dataset Access
+### Dataset Download
 
-Submit a request [here](https://forms.gle/CMgWadMtbaA7tNnE6). Should take up to 48 hours.
+Download[here](https://www.dropbox.com/scl/fo/rri8hdi1b6xlxude1zv28/h?rlkey=5169s5ovnnt0j4cdalpzn4b2b&dl=0).
 
 ## Abstract
 Despite tremendous advances in AI, it remains a significant challenge to develop interactive task guidance systems that can offer situated, personalized guidance and assist humans in various tasks. These systems need to have a sophisticated understanding of the user as well as the environment, and make timely accurate decisions on when and what to say. To address this issue, we created a new multimodal benchmark dataset, Watch, Talk and Guide (WTaG) based on natural interaction between a human user and a human instructor. We further proposed two tasks: User and Environment Understanding, and Instructor Decision Making. We leveraged several foundation models to study to what extent these models can be quickly adapted to perceptually enabled task guidance. Our quantitative, qualitative, and human evaluation results show that these models can demonstrate fair performances in some cases with no task-specific training, but a fast and reliable adaptation remains a significant challenge. Our benchmark and baselines will provide a stepping stone for future work on situated task guidance.
@@ -71,7 +71,7 @@ Despite tremendous advances in AI, it remains a significant challenge to develop
 - Install [EgoHOS](https://github.com/owenzlz/EgoHOS)
 - Install [CLIP](https://github.com/openai/CLIP)
 - Insert your openai credentials to [open.py](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/src/open.py)
-- Download dataset [WTaG](https://forms.gle/CMgWadMtbaA7tNnE6)
+- Download dataset [WTaG](https://www.dropbox.com/scl/fo/rri8hdi1b6xlxude1zv28/h?rlkey=5169s5ovnnt0j4cdalpzn4b2b&dl=0)
 
 
 ### Running
