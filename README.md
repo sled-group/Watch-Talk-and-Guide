@@ -37,9 +37,6 @@ WTaG is human-human task guidance dataset with natural language communications, 
 ![alt text](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/assets/anno_intent.png)
 
 
-### Dataset Download
-
-Download[here](https://www.dropbox.com/scl/fo/rri8hdi1b6xlxude1zv28/h?rlkey=5169s5ovnnt0j4cdalpzn4b2b&dl=0).
 
 ## Abstract
 Despite tremendous advances in AI, it remains a significant challenge to develop interactive task guidance systems that can offer situated, personalized guidance and assist humans in various tasks. These systems need to have a sophisticated understanding of the user as well as the environment, and make timely accurate decisions on when and what to say. To address this issue, we created a new multimodal benchmark dataset, Watch, Talk and Guide (WTaG) based on natural interaction between a human user and a human instructor. We further proposed two tasks: User and Environment Understanding, and Instructor Decision Making. We leveraged several foundation models to study to what extent these models can be quickly adapted to perceptually enabled task guidance. Our quantitative, qualitative, and human evaluation results show that these models can demonstrate fair performances in some cases with no task-specific training, but a fast and reliable adaptation remains a significant challenge. Our benchmark and baselines will provide a stepping stone for future work on situated task guidance.
@@ -95,13 +92,28 @@ optional arguments:
 
  ## Citation
 ```
-@misc{bao2023foundation,
-      title={Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?}, 
-      author={Yuwei Bao and Keunwoo Peter Yu and Yichi Zhang and Shane Storks and Itamar Bar-Yossef and Alexander De La Iglesia and Megan Su and Xiao Lin Zheng and Joyce Chai},
-      year={2023},
-      eprint={2311.00738},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
+@inproceedings{bao-etal-2023-foundation,
+    title = "Can Foundation Models Watch, Talk and Guide You Step by Step to Make a Cake?",
+    author = "Bao, Yuwei  and
+      Yu, Keunwoo  and
+      Zhang, Yichi  and
+      Storks, Shane  and
+      Bar-Yossef, Itamar  and
+      de la Iglesia, Alex  and
+      Su, Megan  and
+      Zheng, Xiao  and
+      Chai, Joyce",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.824",
+    doi = "10.18653/v1/2023.findings-emnlp.824",
+    pages = "12325--12341",
 }
 ```
 
