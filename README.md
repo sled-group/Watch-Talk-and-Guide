@@ -5,7 +5,7 @@
 - **Authors:** Yuwei Bao, Keunwoo Peter Yu, Yichi Zhang, Shane Storks, Itamar Bar-Yossef, Alexander De La Iglesia, Megan Su, Xiao Lin Zheng, Joyce Chai
 - **Organization:** University of Michigan, Computer Science and Engineering
 - **Published in:** EMNLP 2023, Singapore
-- **Links:** [Arxiv](https://arxiv.org/abs/2311.00738), [Github](https://github.com/sled-group/Watch-Talk-and-Guide), [Dataset](https://www.dropbox.com/scl/fo/rri8hdi1b6xlxude1zv28/h?rlkey=xtx9v386hhsqk4ct6ix8kw53u&dl=0)
+- **Links:** [Arxiv](https://arxiv.org/abs/2311.00738), [Github](https://github.com/sled-group/Watch-Talk-and-Guide), [Dataset](### Dataset)
 
 
 
@@ -64,11 +64,18 @@ Despite tremendous advances in AI, it remains a significant challenge to develop
 4. Guidance generation: If yes to 1, what to say in natural language.
 
 
+### Dataset
+- Regular Download [WTaG](https://www.dropbox.com/scl/fo/rri8hdi1b6xlxude1zv28/h?rlkey=xtx9v386hhsqk4ct6ix8kw53u&dl=0)
+- Audio-Video WTaG, please sign additional licencing aggreement [HERE](https://docs.google.com/forms/d/e/1FAIpQLScM87-G5giqEGAhDTz2fp4puatHQLRX9qaEDMEDc0u7dyt2PA/viewform?usp=sf_link)
+
+
+
+
 ### SetUp
 - Install [EgoHOS](https://github.com/owenzlz/EgoHOS)
 - Install [CLIP](https://github.com/openai/CLIP)
 - Insert your openai credentials to [open.py](https://github.com/sled-group/Watch-Talk-and-Guide/blob/main/src/open.py)
-- Download dataset [WTaG](https://www.dropbox.com/scl/fo/rri8hdi1b6xlxude1zv28/h?rlkey=xtx9v386hhsqk4ct6ix8kw53u&dl=0)
+- Download dataset [WTaG](### Dataset)
 
 
 ### Running
